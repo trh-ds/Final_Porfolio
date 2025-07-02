@@ -153,10 +153,10 @@ const Portfolio = () => {
                             </p>
 
                             <h1 className="text-6xl md:text-7xl font-bold leading-tight">
-                                <span ref={frontendRef} className="bg-gradient-to-r from-gray-400 via-white to-gray-300 bg-clip-text text-transparent block">
+                                <span ref={frontendRef} className="bg-gradient-to-r from-gray-400 via-white to-gray-300 bg-clip-text text-transparent block font-bebas">
                                     FRONTEND
                                 </span>
-                                <span ref={developerRef} className="bg-gradient-to-r from-white via-gray-300 to-gray-400 bg-clip-text text-transparent block">
+                                <span ref={developerRef} className="bg-gradient-to-r from-white via-gray-300 to-gray-400 bg-clip-text text-transparent block font-bebas">
                                     DEVELOPER
                                 </span>
                             </h1>
@@ -166,7 +166,7 @@ const Portfolio = () => {
                             </p>
 
                             <div ref={buttonsRef} className="flex gap-4 pt-6">
-                                <button className="px-8 py-3 bg-gradient-to-r from-rose-800 via-purple-800 to-red-800 hover:from-rose-700 hover:via-purple-700 hover:to-red-700 rounded-lg font-semibold transition-all duration-300 shadow-lg hover:shadow-rose-500/25">
+                                <button className="px-8 py-3 bg-gradient-to-bl from-pink-800 via-purple-800 to-red-800 hover:from-rose-700 hover:via-purple-700 hover:to-red-700 rounded-lg font-semibold transition-all duration-300 shadow-lg hover:shadow-rose-500/25">
                                     View Work
                                 </button>
                                 <button className="px-8 py-3 border border-rose-400/30 hover:bg-gradient-to-r hover:from-rose-900/20 hover:via-purple-900/20 hover:to-red-900/20 rounded-lg font-semibold transition-all duration-300">
