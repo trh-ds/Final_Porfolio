@@ -109,7 +109,7 @@ const Portfolio = () => {
 
         <div className="min-h-screen bg-black text-white relative overflow-hidden">
             {/* Background decoration */}
-            
+
             <About />
             <Menu />
             {/* Navbar */}
@@ -166,10 +166,10 @@ const Portfolio = () => {
                             </p>
 
                             <div ref={buttonsRef} className="flex gap-4 pt-6">
-                                <button className="px-8 py-3 bg-gradient-to-r from-gray-600 to-gray-800 hover:from-gray-500 hover:to-gray-700 rounded-lg font-semibold transition-all duration-300 shadow-lg hover:shadow-gray-500/25">
+                                <button className="px-8 py-3 bg-gradient-to-r from-rose-800 via-purple-800 to-red-800 hover:from-rose-700 hover:via-purple-700 hover:to-red-700 rounded-lg font-semibold transition-all duration-300 shadow-lg hover:shadow-rose-500/25">
                                     View Work
                                 </button>
-                                <button className="px-8 py-3 border border-gray-400/50 hover:bg-gray-700/30 rounded-lg font-semibold transition-all duration-300">
+                                <button className="px-8 py-3 border border-rose-400/30 hover:bg-gradient-to-r hover:from-rose-900/20 hover:via-purple-900/20 hover:to-red-900/20 rounded-lg font-semibold transition-all duration-300">
                                     Get In Touch
                                 </button>
                             </div>
